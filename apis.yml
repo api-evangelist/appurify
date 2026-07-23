@@ -1,7 +1,23 @@
 aid: appurify
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/appurify.png
 name: Appurify
-description: Appurify is a company surfaced as a portfolio company of dcvc, gv and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Appurify was a mobile app and website testing platform that let developers automate
+  testing and optimization of native and web apps on real iOS and Android devices across OS versions
+  and simulated network conditions. Founded and backed by DCVC and GV, Appurify was acquired by Google
+  in June 2014 and its technology was folded into Firebase Test Lab (formerly Google Cloud Test Lab).
+  The company no longer operates independently; the appurify.com domain now redirects to the Firebase
+  Test Lab documentation and Appurify's standalone developer API and product have been discontinued.
 url: https://raw.githubusercontent.com/api-evangelist/appurify/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,11 +26,24 @@ x-backed-by:
 - gv
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct
+x-acquired-by: google
+x-acquired-date: '2014-06-25'
+x-successor: Firebase Test Lab
+x-enrichment: 'No independent developer surface remains after the 2014 Google acquisition: no live
+  API, docs, SDKs, or .well-known catalog on appurify.com (redirects to firebase.google.com/docs/test-lab/;
+  HTTPS unreachable). No provider artifacts could be searched, generated, or derived without fabrication.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Mobile
+- Testing
+- Quality Assurance
+- DevOps
+- Acquired
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
