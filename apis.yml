@@ -33,7 +33,7 @@ x-successor: Firebase Test Lab
 x-enrichment: 'No independent developer surface remains after the 2014 Google acquisition: no live
   API, docs, SDKs, or .well-known catalog on appurify.com (redirects to firebase.google.com/docs/test-lab/;
   HTTPS unreachable). No provider artifacts could be searched, generated, or derived without fabrication.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
